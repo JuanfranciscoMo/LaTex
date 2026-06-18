@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1781745309.1606 "/Users/macbook/Documents/LaTex/main.tex" "main.pdf" "main" 1781745310.39391 0
+["pdflatex"] 1781753287.30842 "/Users/macbook/Documents/LaTex/main.tex" "main.pdf" "main" 1781753289.07576 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm" 1781055431.45741 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm" 1781055431.46299 1288 655e228510b4c2a1abe905c368440826 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr17.tfm" 1781055431.46322 1292 296a67155bdbfc32aa9c636f21e91433 ""
@@ -10,11 +10,11 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls" 1781055441.15012 20144 e6010938fb17dfbae90a243ad7cf351d ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo" 1781055441.13939 8448 f7d8bfe7b7a3986fbf9022b21b7800cc ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1781055437.22696 30909 7dedb28cb21a1e79c47a35a35ae3c507 ""
-  "/Users/macbook/Documents/LaTex/main.tex" 1781745308.89518 166 876072d9d84fd47d04274f2de5a9deae ""
-  "/Users/macbook/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1781740668.79381 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "/Users/macbook/Documents/LaTex/main.tex" 1781753287.03043 166 876072d9d84fd47d04274f2de5a9deae ""
+  "/Users/macbook/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1781751653.07555 127609 6141d4d481c8aea20d7c108c9dd20d2f ""
   "/Users/macbook/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1781740678.06791 10167494 b75f4add7d467feff7dab5b3136de4d3 ""
-  "main.aux" 1781745310.32151 133 7e1109650940f02da3d3d5a9ee585ffa "pdflatex"
-  "main.tex" 1781745308.89518 166 876072d9d84fd47d04274f2de5a9deae ""
+  "main.aux" 1781753288.99703 133 7e1109650940f02da3d3d5a9ee585ffa "pdflatex"
+  "main.tex" 1781753287.03043 166 876072d9d84fd47d04274f2de5a9deae ""
   (generated)
   "main.aux"
   "main.log"
