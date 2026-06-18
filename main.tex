@@ -1,4 +1,5 @@
-    \documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,12pt]{article}
+\usepackage[spanish]{babel}
 
 % *** FUENTE ***
 \usepackage[T1]{fontenc}
@@ -9,28 +10,59 @@
 \let\oldnormalfont\normalfont
 \def\normalfont{\oldnormalfont\mdseries}
 
+%*** GEOMETRÍA ***
+\usepackage{geometry}
+\geometry{left=25mm,right=25mm,top=35mm,bottom=30mm,headheight=35mm}
+
+%*** FECHA ***
+\usepackage[useregional]{datetime2}
+
 % *** COLOR ***
 \usepackage{xcolor}
 \definecolor{rojo}{RGB}{217, 62, 37}
 
+% *** ENCABEZADO ***
+\usepackage{lastpage} % Nos da el número total de páginas
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+% Nuevos comandos (definidos ANTES de \begin{document})
+\newcommand{\fecha}{\DTMdate{2022-03-13}}
+\newcommand{\titulo}{Título importante y poderoso}
+\newcommand{\autor}{Chuck Norris Rodrígez}
+
+%Pie de página
+\lfoot{\small Titulo importante y poderoso}
+\cfoot{}
+\rfoot{\small Pág. \thepage\ - \pageref{LastPage}}
+%Encabezado
+\lhead{PIXEL}
+\chead{\autor}
+\rhead{\fecha}  
+
 \begin{document}
 \begin{center}
     % Poner el título importante
-    {\color{rojo} \LARGE \textbf {Titulo importante y poderoso}} \\[1cm]
+    {\color{rojo} \LARGE \textbf {\titulo}} \\[1cm]
 
-\hspace{3cm } {\large \textit{Mi proyecto pro en LaTex}}
+{\large \textit{Mi proyecto pro en LaTex}}
 
-\underline{Chuck Norris}
+\underline{\autor}
 \end{center}
 
 \begin{flushright}
-    19 de febrero del 2022
+   \fecha
 \end{flushright}
 
 TeX1 \newline
  
-\indent is a low-level markup
-\noindent and programming language created by Donald Knuth2 to
+\tableofcontents
+\newpage
+\section{\indent is a low-level markup}
+\subsection{ \noindent and programming language created by Donald Knuth2 to }
 typeset documents attractively and consistently. Knuth started writing the TeX typesetting
 engine in 1977 to explore the potential of the digital printing equipment that was beginning
 to infiltrate the publishing industry at that time, especially in the hope that he could reverse
@@ -43,5 +75,113 @@ anything else but typesetting with it. The fine control TeX oﬀers over documen
 and formatting makes it a powerful—and formidable—tool.
 
 \textbackslash hola, 100 \% adas. \$ \# \& \{hola\} hola\_2
- 
+
+
+\begin{itemize}
+    \item[a.] Hola
+    \item[] Hola
+    \item Hola
+    \begin{itemize}
+        \item Hola
+    \end{itemize}
+\end{itemize}
+\begin{enumerate}
+    \item Adios
+    \item Adios
+    \item Adios
+\end{enumerate}
+\begin{description}
+\item[Variable] Programming in TeX generally progresses along a very gradual learning curve, requiring
+a significant investment of time to build custom macros for text formatting.
+\item[Aleatoria] These pre-built macros are time saving, and automate certain repetitive tasks and
+help reduce user introduced errors; however, this convenience comes at the cost of complete
+design flexibility. One of the most popular macro packages is called LaTeX.
+\end{description}
+
+
+\subsection{Segundo tema}
+Programming in TeX generally progresses along a very gradual learning curve, requiring
+a significant investment of time to build custom macros for text formatting. Fortunately,
+document preparation systems based on TeX, consisting of collections of pre-built macros,
+do exist. These pre-built macros are time saving, and automate certain repetitive tasks and
+help reduce user introduced errors; however, this convenience comes at the cost of complete
+design flexibility. One of the most popular macro packages is called LaTeX.
+
+\subsection{Antecedentes}
+1.2. What is LaTeX?
+LaTeX (pronounced either "Lah-tech" or "Lay-tech") is a macro package based on TeX
+created by Leslie Lamport3. Its purpose is to simplify TeX typesetting, especially for
+
+\section*{Metodología}
+\subsection{Figutas}
+documents containing mathematical formulae. Within the typesetting system, its name
+is formatted as L A TEX.
+Many later authors have contributed extensions, called packages or styles, to LaTeX. Some
+of these are bundled with most TeX/LaTeX software distributions; more can be found in
+the Comprehensive TeX Archive Network (CTAN4).
+Since LaTeX comprises a group of TeX5 commands, LaTeX document processing is essen-
+tially programming. You create a text file in LaTeX markup, which LaTeX reads to produce
+the final document.
+This approach has some disadvantages in comparison with a WYSIWYG6 (What You See
+Is What You Get) program such as Openoﬃce.org7 Writer or Microsoft Word8
+
+In LaTeX:
+• You don't (usually) see the final version of the document when editing it.
+• You generally need to know the necessary commands for LaTeX markup.
+• It can sometimes be diﬃcult to obtain a certain look for the document.
+On the other hand, there are certain advantages to the LaTeX approach:
+• Document sources can be read with any text editor and understood, unlike the complex
+binary and XML9 formats used with WYSIWYG programs.
+• You can concentrate purely on the structure and contents of the document, not get caught
+up with superficial layout issues.
+• You don't need to manually adjust fonts, text sizes, line heights, or text flow for read-
+ability, as LaTeX takes care of them automatically.
+• In LaTeX the document structure is visible to the user, and can be easily copied to another
+document. In WYSIWYG applications it is often not obvious how a certain formatting
+was produced, and it might be impossible to copy it directly for use in another document.
+• The layout, fonts, tables and so on are consistent throughout the document.
+• Mathematical formulae can be easily typeset.
+• Indexes, footnotes, citations and references are generated easily.
+• Since the document source is plain text, tables, figures, equations, etc. can be generated
+programmatically with any language.
+• You are forced to structure your documents correctly.
+The LaTeX document is a plain text file containing the content of the document, with
+additional markup. When the source file is processed by the macro package, it can produce
+documents in several formats. LaTeX natively supports DVI10 and PDF, but by using other
+software you can easily create PostScript, PNG, JPEG, etc.
+4 http://www.ctan.org
+5 https://en.wikibooks.org/wiki/TeX
+6 https://en.wikipedia.org/wiki/WYSIWYG
+7 https://en.wikipedia.org/wiki/Openoffice.org
+8 https://en.wikipedia.org/wiki/Microsoft%20Word
+9 https://en.wikipedia.org/wiki/XML
+10 https://en.wikipedia.org/wiki/DVI%20file%20format
+
+\section{Concluciones}
+Philosophy of use
+1.3. Philosophy of use
+1.3.1. Flexibility and modularity
+One of the most frustrating things beginners and even advanced users might encounter
+using LaTeX is the lack of flexibility regarding the document design and layout. If you
+want to design your document in a very specific way, you may have trouble accomplishing
+this. Keep in mind that LaTeX does the formatting for you, and mostly the right way. If
+it is not exactly what you desired, then the LaTeX way is at least not worse, if not better.
+One way to look at it is that LaTeX is a bundle of macros for TeX that aims to carry
+out everything regarding document formatting, so that the writer only needs to care about
+content. If you really want flexibility, use plain TeX instead.
+One solution to this dilemma is to make use of the modular possibilities of LaTeX. You
+can build your own macros, or use macros developed by others. You are likely not the first
+person to face some particular formatting problem, and someone who encountered a similar
+problem before may have published their solution as a package.
+CTAN11 is a good place to find many resources regarding TeX and derivative packages. It
+is the first place where you should begin searching.
+
+\subsection{Figuras}
+1.3.2. Questions and documentation
+Besides internet resources being plentiful, the best documentation source remains the oﬃcial
+manual for every specific package, and the reference documentation, i.e., the TeXbook by
+D. Knuth and LaTeX: A document preparation system by L. Lamport.
+Therefore before rushing on your favorite web search engine, we really urge you to have
+a look at the package documentation that causes troubles. This oﬃcial documentation is
+most commonly installed along your TeX distribution, or may be found on CTAN12.
 \end{document}

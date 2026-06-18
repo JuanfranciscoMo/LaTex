@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.6.17)  17 JUN 2026 21:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.6.17)  18 JUN 2026 11:01
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**/Users/macbook/Documents/LaTex/main.tex
+(/Users/macbook/Documents/LaTex/main.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
@@ -22,24 +23,63 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.st
-y
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2084.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2086.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2088.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2089.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2090.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2092.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2117.
+\U@D=\dimen151
+\l@unhyphenated=\language1
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4228.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/es/babel-spanish.tex)
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 4356.
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Spanish' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 51.
+
+\es@quottoks=\toks17
+\es@quotdepth=\count286
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 3.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 3.
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-)
-(/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/inr
-iasans/InriaSans.sty
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/inriasans/InriaSans.sty
 Package: InriaSans 2019/01/18 v1.0 Style file for InriaSans.
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-
-(/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ly1
-/ly1enc.def
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ly1/ly1enc.def
 File: ly1enc.def 2022/06/11 v0.8 TeX 'n ANSI encoding (DPC/KB)
 Now handling font encoding LY1 ...
 ... processing UTF-8 mapping file for font encoding LY1
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/ly1enc.dfu
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/ly1enc.dfu
 File: ly1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -167,31 +207,22 @@ File: ly1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+FB05 (decimal 64261)
    defining Unicode char U+FB06 (decimal 64262)
 ))
-LaTeX Font Info:    Trying to load font information for LY1+cmr on input line 1
-16.
+LaTeX Font Info:    Trying to load font information for LY1+cmr on input line 116.
 LaTeX Font Info:    No file LY1cmr.fd. on input line 116.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
-16.
-
-(/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ly1
-/ly1ptm.fd
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 116.
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
 
 LaTeX Font Warning: Font shape `LY1/cmr/m/n' undefined
 (Font)              using `LY1/ptm/m/n' instead on input line 116.
 
-)
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/textcomp.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-)
-(/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fon
-taxes/fontaxes.sty
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
 Applying: [2024-11-01] Use figureversions if present on input line 74.
-
-(/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fig
-ureversions/figureversions.sty
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/figureversions/figureversions.sty
 Package: figureversions 2025-04-29 v1.0.1 Figure versions
 )
 Already applied: [0000-00-00] Fall back to v1 on input line 76.
@@ -208,38 +239,60 @@ Package fontaxes Warning: Axis `shape` not supported for command
 Package fontaxes Warning: Axis `shape` not supported for command
 (fontaxes)                \fa@naming@exception on line 44
 
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.s
-ty
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkeyval
-.tex
-(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkvutil
-s.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/keyval.
-tex))
-\XKV@depth=\count284
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkeyval.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count287
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)))
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+))) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks20
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg)) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2/datetime2.sty
+Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2026/05/24 v1.6.8 (NLCT) Track Languages
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/generic/tracklang/tracklang.tex)
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count291
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2-spanish/datetime2-spanish.ldf
+File: datetime2-spanish.ldf 2017/11/13 v1.1
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2-spanish/datetime2-spanish-ascii.ldf
+File: datetime2-spanish-ascii.ldf 2017/11/13 v1.1
+))) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/colo
-r.cfg
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdft
-ex.def
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
-)
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolo
-r.ltx)
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -249,98 +302,225 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (HMM)
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lastpage/lastpagemodern.sty
+Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count292
+) 
+)) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip51
+\f@nch@offset@elh=\skip52
+\f@nch@offset@erh=\skip53
+\f@nch@offset@olh=\skip54
+\f@nch@offset@orh=\skip55
+\f@nch@offset@elf=\skip56
+\f@nch@offset@erf=\skip57
+\f@nch@offset@olf=\skip58
+\f@nch@offset@orf=\skip59
+\f@nch@height=\skip60
+\f@nch@footalignment=\skip61
+\f@nch@widthL=\skip62
+\f@nch@widthC=\skip63
+\f@nch@widthR=\skip64
+\@temptokenb=\toks21
 )
-LaTeX Font Info:    Trying to load font information for LY1+InriaSans-LF on inp
-ut line 16.
-
-(/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/inr
-iasans/LY1InriaSans-LF.fd
-File: LY1InriaSans-LF.fd 2018/02/07 (autoinst) Font definitions for LY1/InriaSa
-ns-LF.
+LaTeX Font Info:    Trying to load font information for LY1+InriaSans-LF on input line 46.
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/inriasans/LY1InriaSans-LF.fd
+File: LY1InriaSans-LF.fd 2018/02/07 (autoinst) Font definitions for LY1/InriaSans-LF.
 )
 LaTeX Font Info:    Font shape `LY1/InriaSans-LF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 16.
+(Font)              scaled to size 12.0pt on input line 46.
 LaTeX Font Info:    Font shape `LY1/InriaSans-LF/l/n' will be
-(Font)              scaled to size 12.0pt on input line 16.
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backe
-nd-pdftex.def
+(Font)              scaled to size 12.0pt on input line 46.
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-) (main.aux)
+\l__color_backend_stack_int=\count293
+) (main.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 8.
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-\c@mv@tabular=\count286
-\c@mv@boldtabular=\count287
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
+\c@mv@tabular=\count294
+\c@mv@boldtabular=\count295
 
-(/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-
-pdf.mkii
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(99.58464pt, 660.10394pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=660.10394pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-97.26999pt
+* \headheight=99.58464pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count288
-\scratchdimen=\dimen151
+\scratchcounter=\count296
+\scratchdimen=\dimen160
 \scratchbox=\box53
-\nofMPsegments=\count289
-\nofMParguments=\count290
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count291
-\MPscratchDim=\dimen152
-\MPnumerator=\count292
-\makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks20
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen161
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks23
 )
 LaTeX Font Info:    Font shape `LY1/InriaSans-LF/l/n' will be
-(Font)              scaled to size 20.74pt on input line 19.
+(Font)              scaled to size 20.74pt on input line 49.
 LaTeX Font Info:    Font shape `LY1/InriaSans-LF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 19.
+(Font)              scaled to size 20.74pt on input line 49.
 LaTeX Font Info:    Font shape `LY1/InriaSans-LF/l/n' will be
-(Font)              scaled to size 14.4pt on input line 21.
+(Font)              scaled to size 14.4pt on input line 51.
 LaTeX Font Info:    Font shape `LY1/InriaSans-LF/l/it' will be
-(Font)              scaled to size 14.4pt on input line 21.
+(Font)              scaled to size 14.4pt on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 23.
+(Font)              <12> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
+(Font)              <6> on input line 53.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
+LaTeX Font Info:    Font shape `LY1/InriaSans-LF/l/n' will be
+(Font)              scaled to size 17.28pt on input line 62.
+LaTeX Font Info:    Font shape `LY1/InriaSans-LF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 62.
+(main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Font shape `LY1/InriaSans-LF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
 
-Overfull \hbox (4.83255pt too wide) in paragraph at lines 32--44
-[]\LY1/InriaSans-LF/l/n/12 is a low-level markup and programming language creat
-ed by Donald Knuth2
+
+
+LaTeX Font Info:    Font shape `LY1/InriaSans-LF/l/n' will be
+(Font)              scaled to size 10.95pt on input line 63.
+[1{/Users/macbook/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}
+
+]
+LaTeX Font Info:    Font shape `LY1/InriaSans-LF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 65.
+
+Overfull \hbox (12.39143pt too wide) in paragraph at lines 66--76
+[]\LY1/InriaSans-LF/l/n/12 typeset documents attractively and consistently. Knuth started writing the TeX typesetting
  []
 
 
-Overfull \hbox (7.78363pt too wide) in paragraph at lines 32--44
-\LY1/InriaSans-LF/l/n/12 essentially frozen with only bug fixes released period
-ically. TeX is a programming
+Overfull \hbox (0.42912pt too wide) in paragraph at lines 96--99
+\LY1/InriaSans-LF/l/n/12 of complete design flexibility. One of the most popular macro packages is called LaTeX. 
+ []
+
+LaTeX Font Info:    Font shape `LY1/InriaSans-LF/l/n' will be
+(Font)              scaled to size 8.0pt on input line 112.
+
+Overfull \hbox (2.85612pt too wide) in paragraph at lines 111--114
+\LY1/InriaSans-LF/l/n/12 based on TeX created by Leslie Lamport3. Its purpose is to simplify TeX typesetting, especially
  []
 
 
 
-[1
+[2]
+Overfull \hbox (10.48463pt too wide) in paragraph at lines 117--127
+\LY1/InriaSans-LF/l/n/12 more can be found in the Comprehensive TeX Archive Network (CTAN4). Since LaTeX comprises
+ []
 
-{/Users/macbook/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex
-/pdftex.map}] (main.aux)
+
+Overfull \hbox (0.4979pt too wide) in paragraph at lines 128--159
+\LY1/InriaSans-LF/l/n/12 programmatically with any language. • You are forced to structure your documents correctly.
+ []
+
+
+Overfull \hbox (16.00064pt too wide) in paragraph at lines 128--159
+\LY1/InriaSans-LF/l/n/12 The LaTeX document is a plain text file containing the content of the document, with additional
+ []
+
+
+Overfull \hbox (44.51952pt too wide) in paragraph at lines 128--159
+\LY1/InriaSans-LF/l/n/12 can easily create PostScript, PNG, JPEG, etc. 4 http://www.ctan.org 5 https://en.wikibooks.org/wiki/TeX
+ []
+
+
+Overfull \hbox (100.55725pt too wide) in paragraph at lines 128--159
+\LY1/InriaSans-LF/l/n/12 https://en.wikipedia.org/wiki/Microsoft9 https://en.wikipedia.org/wiki/XML 10 https://en.wikipedia.org/wiki/DVI 
+ []
+
+
+
+[3]
+Overfull \hbox (18.35486pt too wide) in paragraph at lines 180--187
+\LY1/InriaSans-LF/l/n/12 documentation source remains the official manual for every specific package, and the reference
+ []
+
+
+Overfull \hbox (12.63441pt too wide) in paragraph at lines 180--187
+\LY1/InriaSans-LF/l/n/12 to have a look at the package documentation that causes troubles. This official documentation
+ []
+
+
+
+[4] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(main.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
@@ -351,22 +531,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2390 strings out of 469448
- 39464 string characters out of 2459445
- 443691 words of memory out of 3000000
- 31383 multiletter control sequences out of 15000+600000
- 667522 words of font info for 60 fonts, out of 8000000 for 9000
+ 7865 strings out of 469448
+ 152665 string characters out of 2459445
+ 581869 words of memory out of 3000000
+ 36778 multiletter control sequences out of 15000+600000
+ 703240 words of font info for 71 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 63i,5n,73p,257b,180s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/d
-vips/inriasans/inriasans_gn4bcn.enc}</Users/macbook/Library/Application Support
-/MiKTeX/texmfs/install/fonts/type1/inria/inriasans/InriaSans-Bold.pfb></Users/m
-acbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/inria/inri
-asans/InriaSans-Light.pfb></Users/macbook/Library/Application Support/MiKTeX/te
-xmfs/install/fonts/type1/inria/inriasans/InriaSans-LightItalic.pfb>
-Output written on main.pdf (1 page, 63877 bytes).
+ 63i,11n,73p,530b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/inriasans/inriasans_gn4bcn.enc}</Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/inria/inriasans/InriaSans-Bold.pfb></Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/inria/inriasans/InriaSans-Light.pfb></Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/inria/inriasans/InriaSans-LightItalic.pfb>
+Output written on main.pdf (4 pages, 77895 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

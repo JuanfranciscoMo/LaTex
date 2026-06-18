@@ -8,6 +8,19 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.c
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/es/babel-es.ini
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-spanish/spanish.ldf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-spanish/spanish.ldf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-spanish/spanish.ldf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/ecrm1200.tfm
@@ -39,6 +52,37 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyv
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkeyval.tex
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkvutils.tex
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/keyval.tex
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2/datetime2.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2/datetime2.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tracklang/tracklang.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tracklang/tracklang.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/generic/tracklang/tracklang.tex
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/generic/tracklang/tracklang.tex
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/generic/tracklang/tracklang.tex
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/generic/tracklang/tracklang.tex
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/generic/tracklang/tracklang.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2-spanish/datetime2-spanish.ldf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2-spanish/datetime2-spanish.ldf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2-spanish/datetime2-spanish.ldf
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifxetex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifxetex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifluatex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifluatex.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2-spanish/datetime2-spanish-ascii.ldf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2-spanish/datetime2-spanish-ascii.ldf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2-spanish/datetime2-spanish-ascii.ldf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
@@ -50,6 +94,14 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lastpage/lastpage.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lastpage/lastpage.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lastpage/lastpage2e.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lastpage/lastpage2e.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lastpage/lastpagemodern.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lastpage/lastpagemodern.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/inriasans/LY1InriaSans-LF.fd
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/inriasans/LY1InriaSans-LF.fd
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/inriasans/LY1InriaSans-LF.fd
@@ -76,12 +128,32 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1.tfm
+INPUT ./main.toc
+INPUT ./main.toc
+INPUT main.toc
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1.tfm
+OUTPUT main.toc
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
 OUTPUT main.pdf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Light-lf-ly1.vf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Bold-lf-ly1.vf
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1--base.tfm
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-LightItalic-lf-ly1.vf
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-LightItalic-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Bold-lf-ly1.vf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Bold-lf-ly1.vf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Light-lf-ly1.vf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Bold-lf-ly1.vf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1--base.tfm
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Light-lf-ly1.vf
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1--base.tfm
 INPUT main.aux
