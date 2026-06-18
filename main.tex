@@ -1,12 +1,47 @@
-\documentclass[a4paper]{article}
-\title{Mi título}
-\author{Tu nombre}
+    \documentclass[a4paper,12pt]{article}
+
+% *** FUENTE ***
+\usepackage[T1]{fontenc}
+\usepackage[lining,light]{InriaSans}
+\renewcommand*\oldstylenums[1]{{\fontfamily{InriaSans-OsF}\selectfont #1}}
+%% The font package uses mweights.sty which has som issues with the
+%% \normalfont command. The following two lines fixes this issue.
+\let\oldnormalfont\normalfont
+\def\normalfont{\oldnormalfont\mdseries}
+
+% *** COLOR ***
+\usepackage{xcolor}
+\definecolor{rojo}{RGB}{217, 62, 37}
 
 \begin{document}
+\begin{center}
+    % Poner el título importante
+    {\color{rojo} \LARGE \textbf {Titulo importante y poderoso}} \\[1cm]
 
-\maketitle
+\hspace{3cm } {\large \textit{Mi proyecto pro en LaTex}}
 
-\section{Introducción}
-Aquí va el contenido...
+\underline{Chuck Norris}
+\end{center}
 
+\begin{flushright}
+    19 de febrero del 2022
+\end{flushright}
+
+TeX1 \newline
+ 
+\indent is a low-level markup
+\noindent and programming language created by Donald Knuth2 to
+typeset documents attractively and consistently. Knuth started writing the TeX typesetting
+engine in 1977 to explore the potential of the digital printing equipment that was beginning
+to infiltrate the publishing industry at that time, especially in the hope that he could reverse
+the trend of deteriorating typographical quality that he saw aﬀecting his own books and
+articles. With the release of 8-bit character support in 1989, TeX development has been
+essentially frozen with only bug fixes released periodically. TeX is a programming language
+in the sense that it supports the if-else construct: you can make calculations with it (that
+are performed while compiling the document), etc., but you would find it very hard to do
+anything else but typesetting with it. The fine control TeX oﬀers over document structure
+and formatting makes it a powerful—and formidable—tool.
+
+\textbackslash hola, 100 \% adas. \$ \# \& \{hola\} hola\_2
+ 
 \end{document}
