@@ -1,0 +1,25 @@
+# Archivos generados por LaTeX
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.pdf
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.ind
+*.idx
+*.ilg
+*.tdo
+
+# Archivos de respaldo
+*.bak
+*.swp
+
+# Directorios
+build/
+dist/
