@@ -31,6 +31,13 @@
 \usepackage{overpic}
 \usepackage{caption}
 
+% *** ECUACIONES ***
+\usepackage{mathtools}
+
+% *** REFERENCIAS ***
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkbordercolor=blue}
+
 \begin{document}
 hola
 
@@ -41,7 +48,7 @@ hola
     \includegraphics[width=1\linewidth]{example-image-b}
 \end{minipage}
 
-\centering
+\begin{center}
 \begin{minipage} {0.5\linewidth}
     \includegraphics[width=1\linewidth]{example-image-a}
     \captionof{figure}{Leyenda de la Figura A}
@@ -51,5 +58,95 @@ hola
 More specifically, the basic requirement is to have a TeX compiler (which is used to generate
 output files from source), fonts, and the LaTeX macro set.
 \end{minipage}
+\end{center}
+
+\section{Ecuaciones}
+Vamos a poner un poco de texto áca  para que se note que sabemos lo que decimos.
+Ecuación. 
+\begin{center}
+    $ E = m \cdot c^2 $. Tenemos $ f_{yk} $ o sino $ x_{a}^{2}$. También tenemos 
+    $ \frac{3}{2} $ o si no $ \dfrac{3}{4} $ o la $ \sqrt{2} $ o tambien 
+    $ \sqrt[3]{9} $
+\end{center} 
+
+$$ E = m \cdot c^2 $$
+
+\begin{equation}
+    E = m \cdot c^2
+     \label{eq:energia}
+\end{equation}
+
+Como se muestra en la ecuación \ref{eq:energia}. La \autoref{eq:energia}
+o si nola ecuación \eqref{eq:energia}
+La \
+
+\begin{equation*}
+    E = m \cdot c^2
+\end{equation*}
+
+La suma es $ a+b $ y la resta es $ a-b $ Multiplicación es $ a \cdot b $
+o sino $ a \times  b\  \text{hola}$
+Si estoy con ángulos puedo tener $ \cos(30) $ o sino $ \sin(30) $.
+
+Otra opción es una ecuación su numerar pero dentro del entorno de
+ecauaciones. 
+
+Una integral"
+$$ \int_0^L x^2, \quad 10<15 \Rightarrow 15 \geq  10$$
+
+
+\begin{align}
+    f(x) & = x^2+x^3. \\
+         & = x^2+x^2 \cdot x
+\end{align}
+
+\begin{align*}
+    f(x) & = x^2+x^3. \\
+         & = x^2+x^2 \cdot x
+\end{align*}
+
+
+\begin{align*}
+    A &=
+    \begin{pmatrix}
+        1 & 2 & 3 \\
+        4 & 5 & 6 \\
+        7 & 8 & 9
+    \end{pmatrix}, \\[6pt]
+    B &=
+    \begin{bmatrix}
+        1 & 2 & 3 \\
+        4 & 5 & 6 \\
+        7 & 8 & 9
+    \end{bmatrix}, \\[6pt]
+    C &=
+    \begin{matrix}
+        1 & 2 & 3 \\
+        4 & 5 & 6 \\
+        7 & 8 & 9
+    \end{matrix}, \\[6pt]
+    D &=
+    \begin{Bmatrix}
+        1 & 2 & 3 \\
+        4 & 5 & 6 \\
+        7 & 8 & 9
+    \end{Bmatrix}, \\[6pt]
+    E &=
+    \begin{vmatrix}
+        a & b_2 & 3 \\
+        4 & 5 & 6 \\
+        7 & 8 & 9
+    \end{vmatrix}, \\[6pt]
+    F &=
+    \begin{Vmatrix}
+        1 & 2 & 3 \\
+        4 & 5 & 6 \\
+        7 & 8 & 9
+    \end{Vmatrix},
+\end{align*} 
+
+\begin{equation}
+\sum _{x=0}^{n}f{\left(x\right)}^{2}+1=0
+\end{equation}
 
 \end{document}
