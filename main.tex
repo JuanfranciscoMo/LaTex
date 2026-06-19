@@ -1,5 +1,5 @@
 \documentclass[a4paper,12pt]{article}
-\usepackage[spanish]{babel}
+\usepackage[spanish, es-nodecimaldot,mexico]{babel}
 
 % *** FUENTE ***
 \usepackage[T1]{fontenc}
@@ -18,13 +18,30 @@
 \usepackage[useregional]{datetime2}
 
 % *** COLOR ***
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 \definecolor{rojo}{RGB}{217, 62, 37}
+\definecolor{gris}{RGB}{242, 242, 242}  % Corregido: 242,242,242
+
+% *** FIGURAS ***
+\usepackage{graphicx} %Para cargar figuras
+\graphicspath{{./Figuras}} % inidican donde están las figuras
+\usepackage{float} % Permite usar opción H
+\usepackage{subcaption}  %Para poner subfiguras
+\usepackage{wrapfig} % Para poner texto a lado de las figuras
+\usepackage{overpic}
+
+% *** TABLAS ***
+\usepackage{booktabs} % Tener varios tipos de líneas
+\usepackage{colortbl} % Darle color a las tablas 
 
 % *** ENCABEZADO ***
 \usepackage{lastpage} % Nos da el número total de páginas
 \usepackage{fancyhdr} 
 \pagestyle{fancy}
+
+% *** REFERENCIAS ***
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkbordercolor=blue}
 
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0.5pt}
@@ -149,13 +166,6 @@ The LaTeX document is a plain text file containing the content of the document, 
 additional markup. When the source file is processed by the macro package, it can produce
 documents in several formats. LaTeX natively supports DVI10 and PDF, but by using other
 software you can easily create PostScript, PNG, JPEG, etc.
-4 http://www.ctan.org
-5 https://en.wikibooks.org/wiki/TeX
-6 https://en.wikipedia.org/wiki/WYSIWYG
-7 https://en.wikipedia.org/wiki/Openoffice.org
-8 https://en.wikipedia.org/wiki/Microsoft%20Word
-9 https://en.wikipedia.org/wiki/XML
-10 https://en.wikipedia.org/wiki/DVI%20file%20format
 
 \section{Concluciones}
 Philosophy of use
@@ -181,7 +191,173 @@ is the first place where you should begin searching.
 Besides internet resources being plentiful, the best documentation source remains the oﬃcial
 manual for every specific package, and the reference documentation, i.e., the TeXbook by
 D. Knuth and LaTeX: A document preparation system by L. Lamport.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.5\textwidth]{Figuras/devops.jpg}
+\caption{Imagen DevOps}
+\end{figure}
+
 Therefore before rushing on your favorite web search engine, we really urge you to have
 a look at the package documentation that causes troubles. This oﬃcial documentation is
 most commonly installed along your TeX distribution, or may be found on CTAN12.
+
+\clearpage
+Se puede ver en más detalle en al Figura \autoref{fig:violet}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\linewidth]{violet.jpg}
+    \caption{Violet Evergarden}
+    \label{fig:violet}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\linewidth]{violet.jpg}
+    \caption{Violet Evergarden}
+    \label{fig:violet2}
+\end{figure}
+
+\clearpage
+También se pudede poner dos sufbiguras dentro de la definición de una 
+figura (Figura 2), lo cual puede ser útil para hablar de dos 
+gráficas realcionadas o algo similar.
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=1.7in]{devops.jpg}
+        \caption{Dev}
+        \label{fig:devops}
+    \end{subfigure} \hfil
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=1.7in]{violet.jpg}
+        \caption{Violet}
+        \label{fig:violet3}
+    \end{subfigure}
+    \caption{También se pudede poner dos sufbiguras dentro de la definición de una 
+figura \ref{fig:devops}, lo cual puede ser útil para hablar de dos 
+gráficas realcionadas o algo similar Figura \ref{fig:violet3}.}
+\label{fig:doble}
+\end{figure}
+
+If this is the first time you are trying out LaTeX, you don’t even need to install anything.
+For quick testing purpose you may just create a user account with an online LaTeX editor1
+and continue this tutorial in the next chapter. These websites oﬀer collaboration capabil-
+ities while allowing you to experiment with LaTeX syntax without having to bother with
+installing and configuring a distribution and an editor. When you later feel that you would
+benefit from having a standalo
+
+\newpage
+
+\subsubsection{Descripción del equipo}
+\begin{wrapfigure}[9]{l}{0.3\linewidth}
+    \vspace{-10pt}
+    \includegraphics[width=1\linewidth]{leon.jpg}
+\end{wrapfigure}
+
+An engine is an executable that can turn your source code into a printable output format.
+The engine by itself only handles the syntax, it also needs to load fonts and macros to fully
+understand the source code and generate output properly. The engine will determine what
+kind of source code it can read, and what format it can output (usually DVI or PDF).
+All in all, distributions are an easy way to install what you need to use the engines and
+the systems you want. Distributions usually target specific operating systems. You can use
+diﬀerent systems on diﬀerent engines, but sometimes there are restrictions. Code written
+for TeX, LaTeX or ConTeXt are (mostly) not compatible. Additionally, engine-specific code
+(like font for XeTeX) may not be compiled by every engine.
+
+
+Grafíco importante
+\begin{figure}[h]
+    \centering
+    \begin{overpic}[width=0.6\linewidth, tics=5]{plot}
+        % Eje x
+        \put(20,1){5}
+        \put(40,1){10}
+        \put(60,1){15}
+        \put(80,1){20}
+        % Eje y
+        \put(0,20){5}
+        \put(0,40){10}
+        \put(0,60){15}
+        \put(0,80){20}
+
+        \put(43,70) {Función F(x)}
+    \end{overpic}
+    \caption{Un gráfico importante.}
+    \label{fig:grafico}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\caption{Ejemplo de tabla}
+\begin{tabular}{|c|l|r|c|}
+    \hline & 1 & 2 & 3 \\
+    \hline A & hola & hola &  \\
+    \hline B &  &  &  \\
+    \hline & & & \\
+    \hline
+\end{tabular}
+\label{tab:datos}
+\end{table}
+
+LaTeX is not a program by itself; it is a language. Using LaTeX requires a bunch of tools.
+Acquiring them manually would result in downloading and installing multiple programs in
+order to have a suitable computer system that can be used to create LaTeX output, such as
+PDFs. TeX Distributions help the user in this way, in that it is a single step installation
+process that provides (almost) everything Tabla \autoref{tab:datos}.
+
+% TABLA CORREGIDA CON SOMBREADO DE FILAS
+\begin{table}[h]
+    \centering
+    \caption{Coeficientes parciales de seguridad en ELS.}
+    \rowcolors{1}{white}{gris}  % Ahora funciona correctamente
+    \begin{tabular}{p{4cm}cc}
+    \toprule
+    \textbf{Tipo de acción} & \textbf{Efecto desfavorable} 
+    & \textbf{Efecto favorable} \\
+    \midrule
+    Permanente & gG=1 & gG=1 \\
+    Pretensado & 1.10 & 0.90 \\
+    Permanente de valor no constante & 1 & 1 \\
+    variable & 1.00 & 0.00 \\
+    \bottomrule
+    \end{tabular}
+    \label{tab:coeficientes}
+\end{table}
+
+
+\begin{table}[htbp]
+    \centering
+    \caption{Cronograma de entregables}
+    \begin{tabular}{p{2.5em}p{14em}*{4}{p{3.8em}}}
+        \toprule
+        & \textbf{Productos/Entregables} & \textbf{Ene-Mar} & \textbf{Abr-Jun} & \textbf{Jul-Set} & \textbf{Oct-Dic} \\
+        \midrule
+        E1 & Primer documento a entregar, en .doc. & 
+            \cellcolor[RGB]{183,222,232} & & & \\
+        E2 & Segundo documento, más pesado. & 
+            \cellcolor[RGB]{198,227,219} & & & \\
+        E2 & Este tema mejor que no falte. & & 
+            \cellcolor[RGB]{198,227,219} & & \\
+        E2 & Otro tema interesante en PDF. & & 
+            \cellcolor[RGB]{198,227,219} & & \\
+        E2 & Esto es importante, también va. & & 
+            \cellcolor[RGB]{198,227,219} & & \\
+        E3 & Un documento para ver como vamos, editable. & & & 
+            \cellcolor[RGB]{198,227,219} & \\
+        E4 & Informe de evaluación hasta ahora. & & & 
+            \cellcolor[RGB]{198,227,219} & \\
+        E5 & Diseño final del sistema. & & & & 
+            \cellcolor[RGB]{198,227,219} \\
+        E6 & Recomendaciones estratégicas. & & & & 
+            \cellcolor[RGB]{198,227,219} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:cronograma}
+\end{table}
+
+En la \autopageref{tab:cronograma}
 \end{document}
