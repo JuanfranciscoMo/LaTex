@@ -1,0 +1,34 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, mexico]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[default]{lato}
+\usepackage{csvsimple}
+
+\title{Reporte de Inspección Estructural}
+\author{Ingeniería Estructural S.A.}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section*{Resumen}
+	Este informe presenta los resultados de la inspección estructural realizada en distintos edificios. Se detallan las observaciones y calificación de riesgo para cada estructura evaluada.
+	
+	\section*{Datos de Inspección}
+	\begin{table}[h]
+		\caption{Resultados de inspección.}
+		\centering
+		\csvautobooktabular{datos.csv}
+	\end{table}
+
+	
+	\section*{Conclusión}
+	Se recomienda seguimiento en las estructuras calificadas con riesgo \textbf{Alto}. Para más detalles, contactar al ingeniero responsable.
+	
+\end{document}
+
+
+

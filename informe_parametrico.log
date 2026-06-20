@@ -1,0 +1,731 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.6.17)  19 JUN 2026 19:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/macbook/Documents/LaTex/informe_parametrico.tex
+(/Users/macbook/Documents/LaTex/informe_parametrico.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2084.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2086.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2088.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2089.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2090.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2092.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2117.
+\U@D=\dimen151
+\l@unhyphenated=\language1
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4228.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/es/babel-spanish.tex)
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 4356.
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Spanish' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 51.
+
+\es@quottoks=\toks19
+\es@quotdepth=\count286
+Package babel Info: Making " an active character on input line 570.
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 4.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 4.
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen154
+\lightrulewidth=\dimen155
+\cmidrulewidth=\dimen156
+\belowrulesep=\dimen157
+\belowbottomsep=\dimen158
+\aboverulesep=\dimen159
+\abovetopsep=\dimen160
+\cmidrulesep=\dimen161
+\cmidrulekern=\dimen162
+\defaultaddspace=\dimen163
+\@cmidla=\count287
+\@cmidlb=\count288
+\@aboverulesep=\dimen164
+\@belowrulesep=\dimen165
+\@thisruleclass=\count289
+\@lastruleclass=\count290
+\@thisrulewidth=\dimen166
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lato/lato.sty
+Package: lato 2019/06/20 Style file for Lato.
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
+Applying: [2024-11-01] Use figureversions if present on input line 74.
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/figureversions/figureversions.sty
+Package: figureversions 2025-04-29 v1.0.1 Figure versions
+)
+Already applied: [0000-00-00] Fall back to v1 on input line 76.
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkeyval.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+)
+\XKV@depth=\count291
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip51
+\thanksmargin=\skip52
+\droptitle=\skip53
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datatool/datatool.sty
+Package: datatool 2025/12/04 v3.4.3 (NLCT)
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count292
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2026/05/24 v1.6.8 (NLCT) Track Languages
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/generic/tracklang/tracklang.tex)
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2025/12/04 v3.4.3 (NLCT)
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2026/05/19 v2.18d AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen167
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen168
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count293
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count294
+\leftroot@=\count295
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count296
+\DOTSCASE@=\count297
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen169
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count298
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count299
+\dotsspace@=\muskip17
+\c@parentequation=\count300
+\dspbrk@lvl=\count301
+\tag@help=\toks24
+\row@=\count302
+\column@=\count303
+\maxfields@=\count304
+\andhelp@=\toks25
+\eqnshift@=\dimen170
+\alignsep@=\dimen171
+\tagshift@=\dimen172
+\tagwidth@=\dimen173
+\totwidth@=\dimen174
+\lineht@=\dimen175
+\@envbody=\toks26
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2965.
+LaTeX Info: Redefining \] on input line 2966.
+)
+\l__datatool_tmpa_int=\count305
+\l__datatool_tmpb_int=\count306
+\l__datatool_tmpc_int=\count307
+\l__datatool_tmpd_int=\count308
+\l__datatool_count_int=\count309
+\l__datatool_tmp_datatype_int=\count310
+\l__datatool_tmpa_dim=\dimen176
+\l__datatool_tmpb_dim=\dimen177
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datatool/datatool-l3fp.def
+File: datatool-l3fp.def 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@toks=\toks28
+\@dtl@tmpcount=\count311
+\dtl@tmplength=\skip57
+\l__datatool_measure_box=\box55
+\dtl@sortresult=\count312
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datatool/datatool-utf8.ldf
+File: datatool-utf8.ldf 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@datatype=\count313
+\c_datatool_unknown_int=\count314
+\l__datatool_year_int=\count315
+\l__datatool_month_int=\count316
+\l__datatool_day_int=\count317
+\l__datatool_hour_int=\count318
+\l__datatool_minute_int=\count319
+\l__datatool_second_int=\count320
+\l__datatool_tzhour_int=\count321
+\l__datatool_tzminute_int=\count322
+\l__datatool_julian_int=\count323
+\l__datatool_local_julian_int=\count324
+\l__datatool_prefix_int=\count325
+\l__datatool_suffix_int=\count326
+\@dtl@foreach@level=\count327
+
+
+Package tracklang Warning: No `datatool' support for dialect `spanish'  on input line 9924.
+
+\dtl@codeA=\count328
+\dtl@codeB=\count329
+)
+\l__datatool_max_cols_int=\count330
+\l__datatool_col_idx_int=\count331
+\l__datatool_row_idx_int=\count332
+\l__datatool_item_type_int=\count333
+\l__datatool_action_column_int=\count334
+\l__datatool_action_column_ii_int=\count335
+\l__datatool_action_row_int=\count336
+\l__datatool_action_row_ii_int=\count337
+\l__datatool_action_type_int=\count338
+\l__datatool_action_datum_round_int=\count339
+\dtlcolumnnum=\count340
+\dtlrownum=\count341
+\@dtl@before=\toks29
+\@dtl@after=\toks30
+\@dtl@colhead=\toks31
+\dtlcurrentrow=\toks32
+\dtlbeforerow=\toks33
+\dtlafterrow=\toks34
+\l__datatool_map_data_max_cols_int=\count342
+\l__datatool_map_data_edit_column_int=\count343
+\dtlforeachlevel=\count344
+\c@DTLrow=\count345
+\c@DTLrowi=\count346
+\c@DTLrowii=\count347
+\c@DTLrowiii=\count348
+\dtl@rowi=\count349
+\dtl@rowii=\count350
+\dtl@rowiii=\count351
+\g__filtered_row_i_int=\count352
+\g__filtered_row_ii_int=\count353
+\g__filtered_row_iii_int=\count354
+\@dtl@curi=\toks35
+\@dtl@previ=\toks36
+\@dtl@nexti=\toks37
+\@dtl@curii=\toks38
+\@dtl@previi=\toks39
+\@dtl@nextii=\toks40
+\@dtl@curiii=\toks41
+\@dtl@previii=\toks42
+\@dtl@nextiii=\toks43
+\l_datatool_display_per_row_int=\count355
+\l_datatool_display_tab_rows_int=\count356
+\@dtl@toksA=\toks44
+\@dtl@toksB=\toks45
+\@dtl@elements=\count357
+\__datatool_sort_data_sortcol_int=\count358
+\__datatool_sort_data_grpcol_int=\count359
+\dtl@omitlines=\count360
+\l__datatool_line_int=\count361
+)
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:12: Package datatool Error: Can't open file `datos.csv'.
+
+See the datatool package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...b[keys={variable,valor}]{datos}{datos.csv}
+                                                  
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+LaTeX Font Info:    Trying to load font information for OT1+lato-TLF on input line 19.
+(/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lato/OT1lato-TLF.fd
+File: OT1lato-TLF.fd 2019/06/24 Font definitions for OT1/lato-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 19.
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count362
+)
+No file informe_parametrico.aux.
+\openout1 = `informe_parametrico.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 19.
+(/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count363
+\scratchdimen=\dimen178
+\scratchbox=\box56
+\nofMPsegments=\count364
+\nofMParguments=\count365
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen179
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
+\everyMPtoPDFconversion=\toks47
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@mv@tabular=\count369
+\c@mv@boldtabular=\count370
+LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
+(Font)              scaled to size 20.74pt on input line 21.
+LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 21.
+LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 23.
+LaTeX Font Info:    Font shape `OT1/lato-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 23.
+LaTeX Font Info:    Font shape `OT1/lato-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 24.
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:24: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.24 ...:} \DTLfetch{datos}{variable}{obra}{valor}
+                                                   \\
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:24: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.24 ...:} \DTLfetch{datos}{variable}{obra}{valor}
+                                                   \\
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:24: Package datatool Error: No row found in database `datos' for column `0' matching `obra'.
+
+See the datatool package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...:} \DTLfetch{datos}{variable}{obra}{valor}
+                                                   \\
+(That was another \errmessage.)
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:25: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.25 ...TLfetch{datos}{variable}{ubicacion}{valor}
+                                                   \\
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:25: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.25 ...TLfetch{datos}{variable}{ubicacion}{valor}
+                                                   \\
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:25: Package datatool Error: No row found in database `datos' for column `0' matching `ubicacion'.
+
+See the datatool package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...TLfetch{datos}{variable}{ubicacion}{valor}
+                                                   \\
+(That was another \errmessage.)
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:26: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.26 ...TLfetch{datos}{variable}{encargado}{valor}
+                                                   \\
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:26: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.26 ...TLfetch{datos}{variable}{encargado}{valor}
+                                                   \\
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:26: Package datatool Error: No row found in database `datos' for column `0' matching `encargado'.
+
+See the datatool package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...TLfetch{datos}{variable}{encargado}{valor}
+                                                   \\
+(That was another \errmessage.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--28
+
+ []
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:30: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.30 ...} \DTLfetch{datos}{variable}{clima}{valor}
+                                                   \\
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:30: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.30 ...} \DTLfetch{datos}{variable}{clima}{valor}
+                                                   \\
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:30: Package datatool Error: No row found in database `datos' for column `0' matching `clima'.
+
+See the datatool package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...} \DTLfetch{datos}{variable}{clima}{valor}
+                                                   \\
+(That was another \errmessage.)
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:31: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.31 ...etch{datos}{variable}{trabajadores}{valor}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:31: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.31 ...etch{datos}{variable}{trabajadores}{valor}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:31: Package datatool Error: No row found in database `datos' for column `0' matching `trabajadores'.
+
+See the datatool package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...etch{datos}{variable}{trabajadores}{valor}
+                                                  
+(That was another \errmessage.)
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:34: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.34 ... \DTLfetch{datos}{variable}{avance}{valor}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:34: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.34 ... \DTLfetch{datos}{variable}{avance}{valor}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:34: Package datatool Error: No row found in database `datos' for column `0' matching `avance'.
+
+See the datatool package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ... \DTLfetch{datos}{variable}{avance}{valor}
+                                                  .
+(That was another \errmessage.)
+
+LaTeX Font Info:    Font shape `OT1/lato-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 35.
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:35: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.35 ...tos}{variable}{actividadprincipal}{valor}}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:35: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.35 ...tos}{variable}{actividadprincipal}{valor}}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:35: Package datatool Error: No row found in database `datos' for column `0' matching `actividadprincipal'.
+
+See the datatool package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...tos}{variable}{actividadprincipal}{valor}}
+                                                  .
+(That was another \errmessage.)
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:39: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.39 	\DTLfetch{datos}{variable}{problemas}{valor}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:39: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.39 	\DTLfetch{datos}{variable}{problemas}{valor}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:39: Package datatool Error: No row found in database `datos' for column `0' matching `problemas'.
+
+See the datatool package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 	\DTLfetch{datos}{variable}{problemas}{valor}
+                                                  
+(That was another \errmessage.)
+
+
+Overfull \hbox (52.66835pt too wide) in paragraph at lines 38--40
+[]\OT1/lato-TLF/m/n/12 Durante la jornada se presentaron los siguientes inconvenientes:  Undefined Value  
+ []
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:43: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.43 	\DTLfetch{datos}{variable}{acciones}{valor}
+                                                 
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:43: Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: Erroneous variable \dtldb@datos used!
+l.43 	\DTLfetch{datos}{variable}{acciones}{valor}
+                                                 
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/macbook/Documents/LaTex/informe_parametrico.tex:43: Package datatool Error: No row found in database `datos' for column `0' matching `acciones'.
+
+See the datatool package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 	\DTLfetch{datos}{variable}{acciones}{valor}
+                                                 
+(That was another \errmessage.)
+
+
+Overfull \hbox (9.01288pt too wide) in paragraph at lines 42--44
+[]\OT1/lato-TLF/m/n/12 Para mitigar los problemas detectados, se han implementado las siguientes
+ []
+
+
+
+[1
+
+{/Users/macbook/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] (informe_parametrico.aux
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 10683 strings out of 469448
+ 232476 string characters out of 2459445
+ 684080 words of memory out of 3000000
+ 39578 multiletter control sequences out of 15000+600000
+ 656994 words of font info for 54 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 86i,6n,93p,730b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lato/a_vc7epu.enc}{/Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lato/a_y72t7m.enc}</Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/typoland/lato/Lato-Bold.pfb></Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/typoland/lato/Lato-Italic.pfb></Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/typoland/lato/Lato-Regular.pfb>
+Output written on informe_parametrico.pdf (1 page, 63116 bytes).
+PDF statistics:
+ 23 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

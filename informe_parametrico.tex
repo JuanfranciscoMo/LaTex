@@ -1,0 +1,48 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, mexico]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[default]{lato}
+\usepackage{titling}
+\setlength{\droptitle}{-4cm}
+\usepackage{datatool}	
+
+\DTLsetseparator{,}
+\DTLloadrawdb[keys={variable,valor}]{datos}{datos.csv}
+
+
+\title{Reporte Diario de Obra}
+\author{Departamento de Supervisión}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section*{Datos Generales}
+	\noindent \textbf{Obra:} \DTLfetch{datos}{variable}{obra}{valor} \\
+	\textbf{Ubicación:} \DTLfetch{datos}{variable}{ubicacion}{valor} \\
+	\textbf{Encargado:} \DTLfetch{datos}{variable}{encargado}{valor} \\
+	\textbf{Fecha:} \today \\
+	
+	\section*{Condiciones del Día}
+	\noindent \textbf{Clima:} \DTLfetch{datos}{variable}{clima}{valor} \\
+	\textbf{Cantidad de Trabajadores:} \DTLfetch{datos}{variable}{trabajadores}{valor}
+	
+	\section*{Avance de Obra}
+	El avance acumulado de la obra hasta la fecha es del \DTLfetch{datos}{variable}{avance}{valor}.  
+	La actividad principal realizada hoy fue: \textit{\DTLfetch{datos}{variable}{actividadprincipal}{valor}}.
+	
+	\section*{Observaciones y Problemas}
+	Durante la jornada se presentaron los siguientes inconvenientes:  
+	\DTLfetch{datos}{variable}{problemas}{valor}  
+	
+	\section*{Acciones Tomadas}
+	Para mitigar los problemas detectados, se han implementado las siguientes acciones:  
+	\DTLfetch{datos}{variable}{acciones}{valor}  
+	
+	\section*{Conclusión}
+	Se continuará con la planificación prevista, ajustando los tiempos según la disponibilidad de materiales.
+	
+\end{document}
