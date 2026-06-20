@@ -186,9 +186,6 @@ INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./main.aux
-INPUT ./main.aux
-INPUT main.aux
 OUTPUT main.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -198,14 +195,8 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
-INPUT ./main.out
-INPUT ./main.out
-INPUT main.out
-INPUT main.out
-OUTPUT main.pdf
-INPUT ./main.out
-INPUT ./main.out
 OUTPUT main.out
+OUTPUT main.pdf
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1.tfm
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
@@ -218,31 +209,43 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1.tfm
-INPUT ./main.toc
-INPUT ./main.toc
-INPUT main.toc
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1.tfm
-OUTPUT main.toc
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Light-lf-ly1.vf
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1--base.tfm
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Bold-lf-ly1.vf
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-LightItalic-lf-ly1.vf
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-LightItalic-lf-ly1--base.tfm
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Bold-lf-ly1.vf
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Light-lf-ly1.vf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1.tfm
+OUTPUT main.toc
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1.tfm
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Bold-lf-ly1.vf
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1--base.tfm
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Light-lf-ly1.vf
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Bold-lf-ly1.vf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1.tfm
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1.tfm
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1.tfm
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Bold-lf-ly1.vf
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1--base.tfm
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Bold-lf-ly1.vf
+INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Bold-lf-ly1--base.tfm
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/inria/inriasans/InriaSans-Light-lf-ly1.vf
 INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/inria/inriasans/InriaSans-Light-lf-ly1--base.tfm
 INPUT ./Figuras/devops.jpg
@@ -252,6 +255,9 @@ INPUT ./Figuras/devops.jpg
 INPUT ./Figuras/devops.jpg
 INPUT ./Figuras/devops.jpg
 INPUT ./Figuras/devops.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
 INPUT ./Figuras/violet.jpg
 INPUT ./Figuras/violet.jpg
 INPUT ./Figuras/violet.jpg
@@ -261,6 +267,9 @@ INPUT ./Figuras/violet.jpg
 INPUT ./Figuras/violet.jpg
 INPUT ./Figuras/violet.jpg
 INPUT ./Figuras/violet.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
 INPUT ./Figuras/devops.jpg
 INPUT ./Figuras/devops.jpg
 INPUT ./Figuras/devops.jpg
@@ -281,13 +290,6 @@ INPUT ./Figuras/plot.pdf
 INPUT ./Figuras/plot.pdf
 INPUT ./Figuras/plot.pdf
 INPUT ./Figuras/plot.pdf
-INPUT main.aux
-INPUT ./main.out
-INPUT ./main.out
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/inriasans/inriasans_gn4bcn.enc
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/inria/inriasans/InriaSans-Bold.pfb
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/inria/inriasans/InriaSans-Bold.pfb
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/inria/inriasans/InriaSans-Light.pfb
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/inria/inriasans/InriaSans-Light.pfb
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/inria/inriasans/InriaSans-LightItalic.pfb
-INPUT /Users/macbook/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/inria/inriasans/InriaSans-LightItalic.pfb
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg
+INPUT ./Figuras/leon.jpg

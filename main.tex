@@ -44,7 +44,11 @@
 \hypersetup{colorlinks=true, linkbordercolor=blue}
 
 \renewcommand{\headrulewidth}{0.5pt}
+\let\oldheadrule\headrule
+\renewcommand{\headrule}{\color{rojo}\oldheadrule}
 \renewcommand{\footrulewidth}{0.5pt}
+\let\oldfootrule\footrule
+\renewcommand{\footrule}{\color{rojo}\oldheadrule}
 
 % Nuevos comandos (definidos ANTES de \begin{document})
 \newcommand{\fecha}{\DTMdate{2022-03-13}}
@@ -52,16 +56,19 @@
 \newcommand{\autor}{Chuck Norris Rodrígez}
 
 %Pie de página
-\lfoot{\small Titulo importante y poderoso}
+\lfoot{\textcolor{black}{\small Titulo importante y poderoso}}
 \cfoot{}
-\rfoot{\small Pág. \thepage\ - \pageref{LastPage}}
+\rfoot{\textcolor{black}{\small Pág. \thepage\ - \pageref{LastPage}}}
 %Encabezado
-\lhead{PIXEL}
+\lhead{\includegraphics[width=0.15\textwidth]{leon.jpg}}
 \chead{\autor}
 \rhead{\fecha}  
 
 \begin{document}
-\begin{center}
+
+\begin{titlepage}
+    \thispagestyle{empty}
+    \begin{center}
     % Poner el título importante
     {\color{rojo} \LARGE \textbf {\titulo}} \\[1cm]
 
@@ -69,6 +76,11 @@
 
 \underline{\autor}
 \end{center}
+
+\begin{flushright}
+    \fecha
+\end{flushright}
+\end{titlepage}
 
 \begin{flushright}
    \fecha
@@ -360,4 +372,13 @@ process that provides (almost) everything Tabla \autoref{tab:datos}.
 \end{table}
 
 En la \autopageref{tab:cronograma}
+
+
+%Bibliografía
+\begin{thebibliography} {100}
+    \bibitem{notsoshort \textit{The not short Intriduction to \LaTeX},
+    Oetiker, T. et.al.,2015.
+    \bibitem{typogra} \textit{Digital Typography Using \LaTeX},
+    Syropolos, A., Tsolomitis, et.al., Springer NY,2003.
+\end{thebibliography}
 \end{document}

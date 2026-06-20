@@ -1,9 +1,0 @@
-\babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}\indent is a low-level markup}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1} \noindent and programming language created by Donald Knuth2 to }{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Segundo tema}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Antecedentes}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Figutas}{3}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Concluciones}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Figuras}{4}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Descripción del equipo}{7}{subsubsection.2.1.1}%
